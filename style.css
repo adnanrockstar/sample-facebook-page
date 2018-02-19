@@ -1,0 +1,122 @@
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.container { 
+	width :960px;
+	margin : 0 auto;
+} 
+
+	
+.header-area{
+	width : 100%;
+	height:100px;
+	background-color:#405D9B;
+	overflow:hidden;
+}
+.logo-area {
+	width : 40%;
+	float : left;
+	overflow:hidden;
+	
+}
+.logo-area img {
+	padding : 10px;
+	
+}
+.sign-in-area {
+	float : right;
+	width :60%
+	overflow : hidden;
+	color:#FFFFFF;
+	font-size : 12px;
+	font-family:arial;
+	}
+.user-area{
+		padding : 10px;
+		float:left;
+		overflow:hidden;
+}
+.password-area{
+	padding : 10px;
+	float:left; 
+	overflow:hidden;
+	}
+.password-area a {text-decoration:none ; color:#FFFFFF; padding-top:10px; display:block;}
+.password-area a:hover {text-decoration:underline;color:#FFFFFF; cursor:pointer;}
+
+
+.user-area input[type="text"] {
+	margin-top:5px;
+	padding:2px;
+	
+	
+}
+.password-area input[type="password"]
+{
+	margin-top:5px;
+	padding:2px;
+	
+	
+	
+}
+.submit-area button {background-color:#637BAD; color:#ffffff; padding:2px; border:2px solid #637BAD;font-weight:bold;}
+.submit-area button:hover {background-color:#365899; cursor:pointer;}
+.submit-area{padding : 30px 0 ;float:left; overflow:hiddden;}
+
+}
+.main-area {width :100%; overflow:hidden; box-sizing: border box; }
+.mobile-area{ background: linear-gradient(#F6F7FB,#DADEEC); height:650px; float:left; overflow:hidden; }
+.mobile-area h3 {margin-left: 270px; margin-bottom:15px; Padding-top:30px ; font-family:arial;}
+.mobile-area img {margin-left: 270px; }
+.sign-up-area { background: linear-gradient(#F6F7FB,#DADEEC); height:650px; overflow:hidden;}
+.sign-up-area{overflow:hidden;box-sizing:border box;}
+.sign-up-area h1 {margin-left:60px; font-family:arial;Padding-top:20px ; margin-bottom:10px;}
+.sign-up-area p {margin-left:60px; font-family:arial;}
+.input-area{margin-top:10px; margin-left:60px; width:100%;}
+.input-area input {margin-bottom:10px; font-size:20px; height:35px; width :490px; border:1px solid grey; border-radius: 6px; padding-left:5px; }
+.input-area input:nth-of-type(2) {
+    width:30%;
+}
+.input-area input:nth-of-type(1) {
+    width:30%;
+}
+.select-option{margin-left:60px;flaot:left; }
+.why-me{float:left; overflow:hidden; font-family:arial; font-size:15px; color:grey; margin-top:5px;}
+.why-me p:hover {text-decoration:underline; cursor:pointer;}
+.select-option h2 { margin-top:10px;}
+.select-option select { margin-right:-1px; font-size:16px; margin-top:20px; display:inline-block; height:30px;}
+
+.checkbox-area{margin-left:60px; margin-top:40px; margin-bottom:10px; font-family:arial;}
+.last-area {font-size:15px; color:grey; margin-top:30px;}
+.last-area p {overflow:hidden; font-family:arial; font-size:10px;}
+.last-area .ami{margin-left:60px; 
+			 margin-top:20px;
+			text-decoration:none;
+			color: #ffffff;
+			border : 1px solid #ABD679; 
+			border-radius:6px;
+			background-color:#5D9131;
+			padding:10px;
+			font-size:17px;
+			font-family:arial; 
+			overflow:hidden; 
+			display:inline-block;
+			}
+.last-area a {text-decoration:none;color:#8A9DC4;}
+hr {margin-left:60px; border-bottom:0px; border-top: 2px solid grey; border-left : 0px; border-right:0px; margin-top:20px; width:600px;}
+.c-page {margin-top : 30px ;}
+.c-page a {text-decoration:none;}
+.first-list{}
+.first-list ul{}
+.first-list ul li{ display:inline-block; margin-right:15px; font-size:13px;color: #365899;}
+.first-list ul li a {display:block;padding:15px;  }
+.first-list hr{border-bottom:0px; border-top: 1px solid grey; border-left : 0px; border-right:0px; margin-top:10px; width:960px; margin-left:0px;}
+.second-list{}
+.second-list ul{}
+.second-list ul li{ display:inline-block; margin-right:15px; margin-top:10px; font-size:13px;color: #365899;}
+.second-list ul li a {display:block;padding:15px;  }
+.first-list ul li:hover{cursor:pointer;}
+.second-list ul li:hover{cursor:pointer;}
